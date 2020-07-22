@@ -1,0 +1,5 @@
+#   Files that for some unkown reason (or project owner definition),
+# will not upload to cloud or git.
+
+# Node Modules
+node_modules

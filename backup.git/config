@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[user]
+	name = Dionei Beilke dos Santos
+	email = tecnico.beilke@gmail.com
+[remote "smart-assistant-api"]
+	url = https://github.com/BIEMAX/smart-assistant-api
+	fetch = +refs/heads/*:refs/remotes/smart-assistant-api/*

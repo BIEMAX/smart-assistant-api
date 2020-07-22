@@ -1,0 +1,23 @@
+module.exports = {
+    customer: {
+        name: 'Beilke Industries',
+        licenseKey: '98sdf67v89y7sd3jdc83843hdfsf83834hsc823',
+        availableLicenses: '5'
+    },
+    servers: {
+        server1: {
+            type: '',
+            host: 'DESKTOP-BLV21J1\SQLEX17',
+            database: 'Sample_Toolstore_20200',
+            user: 'sa',
+            password: 'DD01039582dd'
+        },
+        server2: {
+            type: 'ms-sql-server',
+            host: 'DESKTOP-BLV21J1\SQLEX17',
+            database: 'ECMGR_2020R1',
+            user: 'sa',
+            password: 'DD01039582dd'
+        }
+    }
+}
