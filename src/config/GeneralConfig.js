@@ -2,7 +2,8 @@ module.exports = {
     customer: {
         name: 'Beilke Industries',
         licenseKey: '98sdf67v89y7sd3jdc83843hdfsf83834hsc823',
-        availableLicenses: '5'
+        availableLicenses: '5',
+        port: 3000
     },
     servers: {
         server1: {

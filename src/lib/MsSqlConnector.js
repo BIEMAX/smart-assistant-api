@@ -1,6 +1,6 @@
 const cnnStr = "Server=@SRV;Database=@DBA;User Id=@USR;Password=@PWS;"
 const sql = require('mssql')
-const cfg = require('./../config/config')
+const cfg = require('../config/GeneralConfig')
 
 const validator = require('./CheckValue')
 
