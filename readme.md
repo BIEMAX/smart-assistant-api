@@ -6,6 +6,11 @@
 > npm install helmet --save
 > npm install morgan
 
+## Commands git 
+
+Get information about git:
+>git config --list --show-origin --show-scope
+
 ## Frameworks used
 https://www.npmjs.com/package/dotenv
 
@@ -18,4 +23,8 @@ https://www.npmjs.com/package/morgan
 
 
 ## Additional information
-https://medium.com/@pedrompinto/tutorial-node-js-como-usar-o-engine-ejs-12bcc688ebab
+Introducing to EJS view engine
+>https://medium.com/@pedrompinto/tutorial-node-js-como-usar-o-engine-ejs-12bcc688ebab
+
+Location for the *gitconfig* file:
+>C:\Users\dionei.santos\.gitconfig
