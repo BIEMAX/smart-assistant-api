@@ -6,7 +6,7 @@ const async = require('async')
 module.exports = (req, res, next) => {
   async.waterfall(
     [
-      (done) => {
+      done => {
         console.log(req.body)
         let usr = req.body.login;
         let pws = req.body.password;
