@@ -1,4 +1,41 @@
-'use strict'
+/**
+ * @swagger
+ * /user/login:
+ *   get:
+ *     summary: User login
+ *     operationId: login
+ *     description: Allow user login into the system.
+ *     tags:
+ *      - user
+ *     security:
+ *       - Apikey: []
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             required:
+ *               - login
+ *               - password
+ *             properties:
+ *               login:
+ *                 type: string
+ *               password:
+ *                 type: string
+ *                 format: password
+ *     responses:
+ *       200:
+ *         description: Resposta obtida
+ *       400:
+ *         description: Parâmetros inválidos
+ *       401:
+ *         description: unkown
+ *       403:
+ *         description: unkown
+ *       404:
+ *         description: unkown
+ */
 
 const async = require('async')
 //const enumTypes = require('../../../lib/')

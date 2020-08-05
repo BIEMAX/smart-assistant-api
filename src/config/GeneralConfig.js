@@ -1,4 +1,18 @@
 module.exports = {
+    app: {
+        /**
+         * Name of the current aplicatioon
+         */
+        applicationName: 'Smart Assistant API',
+        /**
+         * Current version
+         */
+        version: '1.0.0',
+        /**
+         * Environment of the server (can be: development, approval or production)
+         */
+        environment: 'development'
+    },
     customer: {
         name: 'Beilke Industries',
         licenseKey: '98sdf67v89y7sd3jdc83843hdfsf83834hsc823',
