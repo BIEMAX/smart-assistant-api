@@ -1,12 +1,19 @@
 ## Commands to run before start developing/testing
 
 > npm i
+>
 > npm install dotenv
+>
 > npm install express
+>
 > npm install helmet --save
+>
 > npm install morgan
+>
 > npm install --save swagger-ui-express
+>
 > npm install --save swagger-node-express //Do not need this guy
+>
 > npm install --save swagger-jsdoc
 
 Verificar os comandos abaixo
