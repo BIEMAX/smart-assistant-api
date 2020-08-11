@@ -15,7 +15,9 @@
 > npm install --save swagger-node-express //Do not need this guy
 >
 > npm install --save swagger-jsdoc
+>
 > npm install --save express-validator
+>
 > npm install moment
 
 Verificar os comandos abaixo
@@ -35,6 +37,8 @@ https://expressjs.com/pt-br/
 https://www.npmjs.com/package/helmet
 
 https://www.npmjs.com/package/morgan
+
+https://www.npmjs.com/package/moment
 
 
 
