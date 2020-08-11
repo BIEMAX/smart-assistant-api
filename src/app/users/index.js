@@ -1,8 +1,11 @@
 const express = require('express')
 const router = express.Router()
 
+const validador = require('../../lib/Validator')
+const validaLogin = require('./validation/chkLogin')
+
 module.exports = () => {
-  router.get('/login', require('./services/login'))
+  router.get('/login', validaLogin, validador, require('./services/login'))
 
   return router
 }

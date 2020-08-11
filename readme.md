@@ -8,6 +8,8 @@
 > npm install --save swagger-ui-express
 > npm install --save swagger-node-express //Do not need this guy
 > npm install --save swagger-jsdoc
+> npm install --save express-validator
+> npm install moment
 
 Verificar os comandos abaixo
 > npm install swagger

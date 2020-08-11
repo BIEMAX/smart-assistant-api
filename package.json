@@ -12,7 +12,9 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
+    "express-validator": "^6.6.1",
     "helmet": "^4.0.0",
+    "moment": "^2.27.0",
     "morgan": "^1.10.0",
     "mssql": "^6.2.0",
     "swagger": "^0.7.5",
