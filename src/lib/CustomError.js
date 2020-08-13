@@ -1,3 +1,12 @@
+/**
+ *    Author: Dionei Beilke dos Santos
+ *    Version: 1.0
+ *    Company: 
+ *    Description: 
+ *    Version history:
+ *      01/07/2020 - 03:25 PM - V1.0 - First Version of custom catch excepction
+ */
+
 'use strict'
 
 /**

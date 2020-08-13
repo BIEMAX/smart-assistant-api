@@ -44,11 +44,15 @@ https://www.npmjs.com/package/moment
 
 ## Additional information
 Introducing to EJS view engine
->https://medium.com/@pedrompinto/tutorial-node-js-como-usar-o-engine-ejs-12bcc688ebab
+> https://medium.com/@pedrompinto/tutorial-node-js-como-usar-o-engine-ejs-12bcc688ebab
 
 Location for the *gitconfig* file:
->C:\Users\dionei.santos\.gitconfig
+> C:\Users\dionei.santos\.gitconfig
 
+Using github issues directly in Visual Studio code:
+> https://code.visualstudio.com/blogs/2020/05/06/github-issues-integration
+>
+> **Warning:** You need just write in the code *// TODO:* and write your text, after, press Ctrl + ., enter and enter again
 
 ## Swagger implementation
 1. First, you need tu run the following commands
