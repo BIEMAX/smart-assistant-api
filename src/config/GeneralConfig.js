@@ -22,7 +22,7 @@ module.exports = {
     servers: {
         server1: {
             type: 'ms-sql-server',
-            host: 'DESKTOP-BLV21J1\SQLEX17',
+            host: 'DESKTOP-BLV21J1\\SQLEX17',
             database: 'Sample_Toolstore_20200',
             user: 'sa',
             password: 'DD01039582dd'
@@ -30,7 +30,7 @@ module.exports = {
         // TODO: #1 Support MongoDB on database connections @BIEMAX
         server2: {
             type: 'mongodb',
-            host: 'DESKTOP-BLV21J1\SQLEX17',
+            host: 'DESKTOP-BLV21J1\\SQLEX17',
             database: 'ECMGR_2020R1',
             user: 'sa',
             password: 'DD01039582dd'
@@ -38,7 +38,7 @@ module.exports = {
         // TODO: #2 Support MySQL on database connections @BIEMAX
         server3: {
             type: 'mysql',
-            host: 'DESKTOP-BLV21J1\SQLEX17',
+            host: 'DESKTOP-BLV21J1\\SQLEX17',
             database: 'ECMGR_2020R1',
             user: 'sa',
             password: 'DD01039582dd'
@@ -46,7 +46,7 @@ module.exports = {
         // TODO: #3 Support PostGreee SQL on database connections @BIEMAX
         server4: {
             type: 'postgreesql',
-            host: 'DESKTOP-BLV21J1\SQLEX17',
+            host: 'DESKTOP-BLV21J1\\SQLEX17',
             database: 'ECMGR_2020R1',
             user: 'sa',
             password: 'DD01039582dd'
@@ -54,7 +54,7 @@ module.exports = {
         //TODO: #4 Support Oracle SQL on database connections @BIEMAX
         server5: {
             type: 'oracle',
-            host: 'DESKTOP-BLV21J1\SQLEX17',
+            host: 'DESKTOP-BLV21J1\\SQLEX17',
             database: 'ECMGR_2020R1',
             user: 'sa',
             password: 'DD01039582dd'
